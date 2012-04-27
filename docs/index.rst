@@ -3,6 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+===
 JCC
 ===
 
@@ -45,3 +46,13 @@ Example
     >>> buffered_reader = boilerpipe.BufferedReader(file_reader)
     >>> extractor.getText(buffered_reader)
     u'Your HTML converted to text!'
+
+
+Colophon
+========
+
+The logo image is taken from `ClipArt ETC <http://etc.usf.edu/clipart/>`_.
+
+This website is generated with `Sphinx <http://sphinx.pocoo.org>`_, using the
+an adapted template from `Requests <http://docs.python-requests.org/>`_.
+
