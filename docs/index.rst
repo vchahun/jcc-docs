@@ -1,8 +1,4 @@
-.. JCC documentation master file, created by
-   sphinx-quickstart on Fri Apr 27 18:47:28 2012.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
+===
 JCC
 ===
 
@@ -49,3 +45,12 @@ Example
     >>> url = boilerpipe.URL("http://pypi.python.org/pypi/JCC")
     >>> extractor.getText(url)[:24]
     u'Download boilerpipe from'
+
+
+Colophon
+========
+
+The logo image is taken from `ClipArt ETC <http://etc.usf.edu/clipart/>`_.
+
+This website is generated with `Sphinx <http://sphinx.pocoo.org>`_, using the
+an adapted template from `Requests <http://docs.python-requests.org/>`_.
