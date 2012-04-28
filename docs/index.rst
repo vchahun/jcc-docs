@@ -42,7 +42,7 @@ Example
     >>> boilerpipe.initVM(boilerpipe.CLASSPATH+':'+jars)
     <jcc.JCCEnv object at 0x10f6f70f0>
     >>> extractor = boilerpipe.ArticleExtractor.getInstance()
-    >>> url = boilerpipe.URL("http://pypi.python.org/pypi/JCC")
+    >>> url = boilerpipe.URL('http://readthedocs.org/docs/jcc')
     >>> extractor.getText(url)[:24]
     u'Download boilerpipe from'
 
